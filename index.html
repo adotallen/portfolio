@@ -1,131 +1,62 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Aric Allen Portfolio</title>
-    <meta name="description" content="Information Science">
-    <meta name="keywords" content="Aric Allen, Information Science">
-    <meta name="author" content="Aric Allen">
+    <title>Your Name</title>
+    <meta name="description" content="Your Description">
+    <meta name="keywords" content="Your, Key, Words">
+    <meta name="author" content="Your Name">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style/portfolio.css">
-    
-	</head>
-	<body class="vsc-initialized">
+    <link rel="stylesheet" href="assets/style/studentportfolio.css">
+</head>
+
+<body>
     <div id="container">
-        <h1>Portfolio of Aric Allen</h1>
+        <h1>Portfolio of Name</h1>
 
         <div class="tab">
-            <button class="tablinks active" onclick="openTab(event, 'Home')" id="defaultOpen">Profile</button>
+            <button class="tablinks" onclick="openTab(event, 'Home')" id="defaultOpen">Profile</button>
             <button class="tablinks" onclick="openTab(event, 'Resume')">Resume</button>
             <button class="tablinks" onclick="openTab(event, 'Skills')">Skills</button>
             <button class="tablinks" onclick="openTab(event, 'Education')">Education</button>
             <button class="tablinks" onclick="openTab(event, 'Accomplishments')">Accomplishments</button>
-            <button class="tablinks" onclick="openRedirect('subroot/workexamples.html')">Work Examples</button>
+            <button class="tablinks" onclick="openRedirect('workexamples.html')">Work Examples</button>
             <button class="tablinks" onclick="openTab(event, 'CoverLetter')">Cover Letter</button>
             <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
         </div>
 
         <!-- Begin Home Section -->
-        <div id="Home" class="tabcontent" style="display: block;">
+        <div id="Home" class="tabcontent">
               <h2>Profile</h2>
-		<img class = "profilepic" src="" alt="Profile Picture">
-		<p>
-				  
-		</p>
-              
-            
-              <br>&nbsp;
-              <br>&nbsp;
-              <br>&nbsp;
-              <br>&nbsp;
         </div>
 
         <!-- Begin Skills Section -->
-        <div id="Skills" class="tabcontent" style="display: none;">
+        <div id="Skills" class="tabcontent">
             <h2>Skills</h2>
-            <ul>
-                <li>HTML5</li>
-                <li>CSS</li>
-                <li>Python</li>
-                <li>JavaScript</li>
-                <li>SQL</li>
-                <li>Java</li>
-                <li>C++</li>
-                
-            </ul>
         </div>
 
-        <div id="Education" class="tabcontent" style="display: none;">
+        <div id="Education" class="tabcontent">
           <h2>Education</h2>
-       <!-- Begin Education Section -->
-                <h3>Bachelor of Information Science</h3>
-                <div itemscope="" itemtype="http://schema.org/EducationalOrganization">
-                    <span itemprop="name">UA Little Rock</span> - <a itemprop="url" href="https://ualr.edu/" title="University of Arkansas at Little Rock">https://ualr.edu/</a><br>
-                    <span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
-                        <span itemprop="streetAddress">2801 S University Ave</span>,
-                        <span itemprop="addressLocality">Little Rock</span>, 
-                        <span itemprop="addressRegion">AR</span>
-                        <span itemprop="postalCode">72114</span>  
-                        <span itemprop="addressCountry">U.S.A.</span>
-                    </span>
+        </div>
 
-                </div>
-    <!-- End Education Section -->
-          </div>
-
-        <div id="Accomplishments" class="tabcontent" style="display: none;">
+        <div id="Accomplishments" class="tabcontent">
             <h2>Accomplishments</h2>
-          
-
-                 
-                 
-                
-
         </div>        
         
         <!-- Begin Skills Section -->
-         <div id="Resume" class="tabcontent" style="display: none;">
+        <div id="Resume" class="tabcontent">
             <h2>Resume</h2>
-            
-            <h2>Experience</h2>
-            <!-- Position #1 -->
-            
-        <hr>
-
-        <!-- Position #2 -->
-        
-        <hr>
-
-        <!-- Position #3 -->
-        
-        <hr>
-
-        <!-- Position #4 -->
-       
-        <hr>
-                     
-        
-  </div>
-
-        
-        
-
-        <div id="Contact" class="tabcontent" style="display: none;">
-            <h2>Contact Me</h2>
-            <ul>
-                <li>Phone: (501) 912-9215</li>
-                <li>Email: <a href="mailto:aric.allen00@gmail.com">aric.allen00@gmail.com Us</a>  </li>
-                <li>Address: 19472 Lawhorn Dr Little Rock, AR 72206</li>
-                <!--<li>Website: <a href="http://brucebauer.info">http://brucebauer.info</a></li>-->
-            </ul>
         </div>
-    
-    
+        
+        <div id="CoverLetter" class="tabcontent">
+            <h2>Letter of Introduction</h2>
+        </div>
+
+        <div id="Contact" class="tabcontent">
+            <h2>Contact Me</h2>
+        </div>    
 </div>
-
-
-
+<script type="text/javascript" src="assets/scripts/index.js"></script>
 </body>
 </html>
